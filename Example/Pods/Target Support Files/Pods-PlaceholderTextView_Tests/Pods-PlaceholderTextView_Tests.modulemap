@@ -1,0 +1,6 @@
+framework module Pods_PlaceholderTextView_Tests {
+  umbrella header "Pods-PlaceholderTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

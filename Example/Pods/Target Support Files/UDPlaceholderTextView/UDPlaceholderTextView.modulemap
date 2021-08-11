@@ -1,0 +1,6 @@
+framework module UDPlaceholderTextView {
+  umbrella header "UDPlaceholderTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

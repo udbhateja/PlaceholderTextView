@@ -1,0 +1,16 @@
+PODS:
+  - UDPlaceholderTextView (0.1.0)
+
+DEPENDENCIES:
+  - UDPlaceholderTextView (from `../`)
+
+EXTERNAL SOURCES:
+  UDPlaceholderTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UDPlaceholderTextView: bab856c19255f267d8e9f68575c02cb27574686d
+
+PODFILE CHECKSUM: 78dbb3d60ec7351434f6c0b42aca8cbadfc60208
+
+COCOAPODS: 1.10.0
