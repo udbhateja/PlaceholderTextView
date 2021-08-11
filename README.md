@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/UDPlaceholderTextView.svg?style=flat)](https://cocoapods.org/pods/UDPlaceholderTextView)
 [![Platform](https://img.shields.io/cocoapods/p/UDPlaceholderTextView.svg?style=flat)](https://cocoapods.org/pods/UDPlaceholderTextView)
 
-<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/1.png' alt='TUDPlaceholderTextView' width='300'>
+<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/1.png' alt='TUDPlaceholderTextView' width='200'>
 
-<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/demo.gif' alt='UDPlaceholderTextView' width='600'>
+<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/demo.gif' alt='UDPlaceholderTextView' width='225'>
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -50,9 +50,11 @@ In case of **Cocoapods**
 Drag a `UITextView` object in your ViewController. Change the class to `UDPlaceholderTextView` in Identity Inspector.
 
 Refer screenshot below:
+
 <img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/IdentityInspector.png' alt='UDPlaceholderTextView' width='200'>
 
 You can change the properties from Storyboard as well.
+
 <img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/IBInspectable.png' alt='UDPlaceholderTextView' width='200'>
 
 In your code you can access the text normally like UITextView. All other UITextView properties and methods can be accessed normally.
@@ -78,6 +80,7 @@ I'd love to see you contributing to this project by proposing or adding features
 ## Author
 
 udbhateja, udaybhateja@ymail.com
+
 https://bit.ly/udbhateja
 
 ## License
