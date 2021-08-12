@@ -4,12 +4,14 @@
 [![License](https://img.shields.io/cocoapods/l/UDPlaceholderTextView.svg?style=flat)](https://cocoapods.org/pods/UDPlaceholderTextView)
 [![Platform](https://img.shields.io/cocoapods/p/UDPlaceholderTextView.svg?style=flat)](https://cocoapods.org/pods/UDPlaceholderTextView)
 
-<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/1.png' alt='TUDPlaceholderTextView' width='300'>
-
-<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/demo.gif' alt='UDPlaceholderTextView' width='600'>
+<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/1.png' alt='TUDPlaceholderTextView' width='200'>
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+**Demo**
+
+<img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/demo.gif' alt='UDPlaceholderTextView' width='225'>
 
 ## Requirements
 -   iOS 9.0+
@@ -25,13 +27,33 @@ it, simply add the following line to your Podfile:
 pod 'UDPlaceholderTextView'
 ```
 
+### Swift Package Manager
+
+To install UDPlaceholderTextView package into your packages, add a reference to UDPlaceholderTextView and a targeting release version in the dependencies section in Package.swift file:
+
+    import PackageDescription
+
+    let package = Package(
+       name: "YOUR_PROJECT_NAME",
+       products: [],
+       dependencies: [
+           .package(url: "https://github.com/udbhateja/UDPlaceholderTextView.git", from: "0.1.0")
+       ]
+    )
+
+To install UDPlaceholderTextView package via Xcode
+
+-   Go to File -> Swift Packages -> Add Package Dependency...
+-   Then search for [https://github.com/udbhateja/UDPlaceholderTextView.git](https://github.com/udbhateja/UDPlaceholderTextView.git)
+-   And choose the version you want
+
 ### Manually
 Drag and drop the file `UDPlaceholderTextView.swift` into your project folder. Make sure **Copy Files** is checked and file is added to target.
 
 ## Usage
 
 In case of **Cocoapods**
-        
+
     import UDPlaceholderTextView
 
 **1. Using Code**
@@ -50,9 +72,11 @@ In case of **Cocoapods**
 Drag a `UITextView` object in your ViewController. Change the class to `UDPlaceholderTextView` in Identity Inspector.
 
 Refer screenshot below:
+
 <img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/IdentityInspector.png' alt='UDPlaceholderTextView' width='200'>
 
 You can change the properties from Storyboard as well.
+
 <img src='https://github.com/udbhateja/UDPlaceholderTextView/raw/master/Screenshots/IBInspectable.png' alt='UDPlaceholderTextView' width='200'>
 
 In your code you can access the text normally like UITextView. All other UITextView properties and methods can be accessed normally.
@@ -66,22 +90,21 @@ In your code you can access the text normally like UITextView. All other UITextV
  - placeholder - Placeholder Text
 
        textView.placeholder = "Please enter your comments"
-       
+
 - placeholderColor - Color of the placeholder text.
-             
+
       textView.placeholderColor = UIColor.red
 
 
 ## Contributions
-I'd love to see you contributing to this project by proposing or adding features, reporting bugs, or spreading the word. Any help or contribution is appreciated. 
+I'd love to see you contributing to this project by proposing or adding features, reporting bugs, or spreading the word. Any help or contribution is appreciated.
 
 ## Author
 
 udbhateja, udaybhateja@ymail.com
+
 https://bit.ly/udbhateja
 
 ## License
 
 UDPlaceholderTextView is available under the MIT license. See the LICENSE file for more info.
-
-
